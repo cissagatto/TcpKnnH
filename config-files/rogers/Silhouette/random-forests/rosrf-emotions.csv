@@ -1,0 +1,13 @@
+Config, Value
+Dataset_Path, ~/TcpKnnH/Datasets
+Temporary_Path, /tmp/rosrf-emotions
+Partitions_Path, ~/TcpKnnH/Partitions/rogers
+Validation, Silhouette
+Similarity, rogers
+Classifier, random-forests
+Dataset_Name, emotions
+Number_Dataset, 26
+Number_Folds, 10
+Number_Cores, 10
+R_clone, 0
+Save_csv_files, 1
