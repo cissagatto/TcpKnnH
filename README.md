@@ -35,11 +35,11 @@ This project aims to induce the **CLUS-FRAMEWORK** or **RANDOM FOREST** in the b
 - **`utils.R`** → Helper functions & preprocessing utilities
 - **`run.R`** → Main script execution
 - **`run-rf.R`** → Runs the Random Forest classifier
-- **`validateMaF1.R`** → Macro-F1 validation script
-- **`validateSilho.R`** → Silhouette validation script
-- **`testMaF1.R`** → Tests Macro-F1 metric
-- **`testSilho.R`** → Tests Silhouette metric
-- **`test-asoc.R`** → Tests association metrics
+- **`validateMaF1.R`** → validates the hybrid partitions with Macro-F1 criteria
+- **`validateSilho.R`** → validates the hybrid partitions with Silhouette Coeficient criteria
+- **`testMaF1.R`** → clus: test the best hybrid partition chosen with Macro-F1 criteria
+- **`testSilho.R`** → clus: test the best hybrid partition chosen with Silhoutte Coeficient criteria
+- **`test-asoc.R`** → random forests: test the best hybrid partition chosen with Silhouette Coeficient criteria
 
 ### **Examples Folder:**
 - **`tcp.R`** → Runs the experiment
